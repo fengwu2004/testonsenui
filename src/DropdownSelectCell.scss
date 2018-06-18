@@ -1,9 +1,9 @@
 .main {
 
-  height: 4rem;
-  background-color: white;
+  height: 8rem;
   width: 100%;
   font-size: 1.6rem;
+  background-color: white;
 }
 
 .content {
@@ -12,7 +12,30 @@
   margin-left: 1rem;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.lineone {
+
+  height: 4rem;
+  display: flex;
   align-items: center;
+}
+
+.linetwo {
+
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  margin-left: 10.5rem;
+
+  > input {
+
+    border: none;
+    padding: 0;
+    font-size: 1.6rem;
+  }
 }
 
 .importent {
@@ -40,26 +63,17 @@
 
 .inputcontent {
 
-  flex: 1;
   padding-left: 1rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
-  > input {
-
-    border: none;
-    font-size: 1.6rem;
-  }
 
   > img {
 
-    margin-right: 1rem;
+    margin-left: 1rem;
   }
 
-  > div {
+  > input {
 
-    color: #999999;
+    padding: 0;
   }
 }
-
